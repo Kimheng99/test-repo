@@ -1,0 +1,10 @@
+import math
+
+def sum(num):
+    s = 0
+    for i in range(1, num+1):
+        s += math.cos(math.radians(i))
+    return s
+num = int(input("Enter Number: "))
+f = sum(num)
+print(f"Cos1 + Cos2 +...+ CosN = {f}")
